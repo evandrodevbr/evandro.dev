@@ -1,0 +1,36 @@
+.container-titulo-header {
+  display: flex;
+  justify-content: center;
+}
+
+.container-titulo-header h1 {
+  font-size: 3vmin;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+}
+
+ul li {
+  margin: 1vmin 2vmin;
+  padding: 0.7vmin 1.5vmin;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+ul li:hover {
+  background-color: #242424;
+  color: #ffffff;
+}
+
+ul li a {
+  font-size: 2vmin;
+  font-weight: 600;
+}
