@@ -27,6 +27,8 @@ export default function Home() {
             className="dev-image"
             src={UndrawProgramming}
             alt="qualquer coisa"
+            width={512}
+            height={512}
           ></Image>
         </div>
       </div>
@@ -79,6 +81,8 @@ export default function Home() {
               className="hero-image"
               src={Projeto}
               alt="Spinning glass cube"
+              width={336}
+              height={253}
             ></Image>
           </a>
           <main className="main-content">
@@ -91,7 +95,13 @@ export default function Home() {
             </p>
           </main>
           <div className="card-attribute">
-            <Image src={Evandro} alt="avatar" className="small-avatar"></Image>
+            <Image
+              src={Evandro}
+              alt="avatar"
+              className="small-avatar"
+              width={32}
+              height={32}
+            ></Image>
             <p>
               Creation of{" Evandro "}
               <span>
