@@ -67,7 +67,7 @@ export default function Home() {
       </div>
       <div className="container-projetos">
         <div className="projetos-titulo">
-          <h2>Projetos</h2>
+          <h2>Projeto</h2>
         </div>
         <div className="card-container">
           <a href="/" className="hero-image-container">
