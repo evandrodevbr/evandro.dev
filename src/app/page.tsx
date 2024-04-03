@@ -23,7 +23,11 @@ export default function Home() {
           </div>
         </div>
         <div className="container02-image">
-          <Image className="dev-image" src={UndrawProgramming}></Image>
+          <Image
+            className="dev-image"
+            src={UndrawProgramming}
+            alt="qualquer coisa"
+          ></Image>
         </div>
       </div>
       <div className="sobre-mim">
