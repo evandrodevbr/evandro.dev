@@ -1,0 +1,213 @@
+$background-black: #333;
+$background-white: #fff;
+
+$primary-color: #007bff;
+$secondary-color: rgb(169, 169, 169);
+$tertiary-color: #212121;
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container01 {
+  display: flex;
+  margin-top: 50px;
+  padding: 1em;
+  align-items: center;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $background-white;
+  width: 70%;
+}
+
+.dev-name {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  flex-direction: column;
+  width: 50%;
+}
+
+.dev-name h1 {
+  font-size: 3.5em;
+  font-weight: 800;
+  padding: 0em 0em 0.5em 0em;
+}
+
+.dev-name h3 {
+  font-size: 1em;
+  font-weight: 500;
+  color: $primary-color;
+}
+
+.container02-paragraph {
+  width: 75%;
+}
+
+.container02-image {
+  width: 30%;
+}
+
+.dev-image {
+  width: 512px;
+}
+
+.sobre-mim {
+  padding: 1em;
+}
+
+.sobre-mim h2 {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: start;
+}
+
+.sobre-mim_paragrafo {
+}
+
+.evandro-dev {
+  width: 30%;
+  border-radius: 15px;
+  align-self: center;
+}
+
+.button-linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 0px solid;
+  background-color: $primary-color;
+  border-radius: 15px;
+  width: 10em;
+  height: 3em;
+  font-weight: 600;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: $background-white;
+}
+
+.container-projetos {
+  padding: 1em;
+}
+
+.projetos-titulo h2 {
+  font-weight: 700;
+  font-size: 3em;
+  text-align: start;
+}
+
+/* 
+  ========================
+  Variables
+  ========================
+  */
+
+// :root {
+//   font-size: 15px;
+
+//   /* Primary */
+//   --var-soft-blue: hsl(215, 51%, 70%);
+//   /* Neutral */
+//   --var-main-darkest: hsl(217, 54%, 11%);
+//   --var-card-dark: hsl(216, 50%, 16%);
+//   --var-lightest: white;
+
+//   /* Fonts */
+//   --var-heading: normal normal 600 1.5em/1.6em "Outfit", sans-serif;
+//   --var-para: normal normal 300 1em/1.55em "Outfit", sans-serif;
+// }
+
+/* 
+  =======================
+  Setup
+  =======================
+  */
+
+// img {
+//   width: 100%;
+//   border-radius: 15px;
+//   display: block;
+// }
+
+a {
+  color: inherit;
+}
+
+/*
+  =========================
+  Font Styling
+  =========================
+  */
+
+h1 {
+  font: var(--var-heading);
+  color: var(--var-lightest);
+  padding: 1.2em 0;
+}
+
+p {
+  font: var(--var-para);
+  color: var(--var-soft-blue);
+}
+
+span {
+  color: white;
+}
+
+/* 
+  =====================
+  Classes
+  =====================
+  */
+
+.card-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 2em auto;
+  background-color: var(--var-card-dark);
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.card-attribute {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5em;
+  margin: 10px 0px;
+}
+
+a.hero-image-container {
+  position: relative;
+  display: block;
+}
+
+.small-avatar {
+  width: 2em;
+  border-radius: 200px;
+  outline: 2px solid white;
+  margin-right: 1.4em;
+}
+
+.hero-image {
+  border-radius: 15px;
+}
+
+div.attribution {
+  margin: 0 auto;
+  width: 100%;
+  font: var(--var-para);
+  text-align: center;
+  padding: 1.5em 0 4em 0;
+  color: var(--var-soft-blue);
+}
+
+.attribution a {
+  color: var(--var-soft-blue);
+}
