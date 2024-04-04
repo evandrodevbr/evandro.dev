@@ -12,6 +12,7 @@ export function Header() {
           {/* <li className="navigation-item">
             <Link href="/sobre">Sobre</Link>
           </li> */}
+          <p className="header-titulo">evandro.dev.br</p>
           <li className="navigation-item">
             <Link href="#contato">Contato</Link>
           </li>
