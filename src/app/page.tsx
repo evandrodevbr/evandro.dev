@@ -187,7 +187,7 @@ export default function PortfolioPage() {
             />
           </div>
           <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Hi, I'm <span className='text-blue-400'>Evandro </span>👋
+            Hi, I'm <span className="text-blue-400">Evandro </span>👋
           </h1>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
             Building <span className="text-blue-300">digital</span><br />
