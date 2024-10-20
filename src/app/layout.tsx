@@ -8,8 +8,34 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Evandro Fonseca Junior | Full-Stack Developer",
-  description: "Portfolio of Evandro Fonseca Junior, a Full-Stack Developer specializing in building digital products, brands, and experiences.",
+  title: "Evandro Fonseca Junior | Full-Stack Developer & Cloud Computing Specialist",
+  description: "Innovative Full-Stack Developer with expertise in React, Node.js, cloud computing, and AI. Specializing in renewable energy solutions, IoT, and custom web applications. Based in Garuva, SC.",
+  keywords: "Full-Stack Developer, Cloud Computing, AI, Renewable Energy, IoT, React, Node.js, API Development, Web Development, Mobile Development",
+  authors: [{ name: "Evandro Fonseca Junior" }],
+  openGraph: {
+    title: "Evandro Fonseca Junior | Full-Stack Developer & Cloud Specialist",
+    description: "Innovative Full-Stack Developer specializing in renewable energy tech, IoT, and custom web solutions. Expertise in React, Node.js, cloud computing, and AI.",
+    type: "website",
+    locale: "pt_BR",
+    url: "https://www.evandro.dev.br", // Substitua pelo seu domínio real
+    images: [
+      {
+        url: "/evandrodevlogo.png",
+        width: 1200,
+        height: 630,
+        alt: "Evandro Fonseca Junior - Full-Stack Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Evandro Fonseca Junior | Full-Stack & Cloud Developer",
+    description: "Innovative tech solutions in renewable energy, IoT, and web development. Expertise in React, Node.js, cloud computing, and AI.",
+    images: ["/evandrodevlogo.png"],
+  },
+  icons: {
+    icon: '/evandrodevlogo.png',
+  },
 };
 
 export default function RootLayout({
